@@ -1,0 +1,124 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    outline: 0; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    border: none;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  html{
+    font: 62.5% Roboto, sans-serif; /*1rem =10px*/
+    color: var(--orange-gray);
+  }
+  
+  body{
+    font-size: 1.4rem;
+  }
+  
+  html, body{
+    background-color: var(--blue-baby);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  h1{
+    font-size: 3.4rem;
+  }
+  h2{
+    font-size: 3.0rem;
+  }
+  h3{
+    font-size: 2.4rem;
+  }
+  h4{
+    font-size: 2.2rem;
+  }
+  h5{
+    font-size: 2.0rem;
+  }
+  h6{
+    font-size: 1.8rem;
+  }
+  i{
+    font-size: 1.6rem;
+    font-style: normal;
+  }
+  span{
+    font-size: 1.5rem;
+   
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  a{
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .fc{
+    display: flex;
+    flex-direction: column;
+  }
+  .fr{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .f-center{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .f-a-center{
+    align-items: center;
+  }
+  
+  .f-a-flexStart{
+    align-items: flex-start;
+  }
+  
+  .f-j-spaceBetween{
+    justify-content: space-between;
+  }
+  .f-j-spaceAroun{
+    justify-content: space-around;
+  }
+  .f-j-end{
+    justify-content: flex-end;
+  }
+  
+  .f-j-spaceEvenly{
+    justify-content: space-evenly;
+  }
+  
+  :root{
+    --gradient-menu: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    --gradient-link: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    --gradient-button: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    --gradient-edit: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+  
+
+
+    --brown: #8d35067a;
+    --green:#2ecc71;
+    --yellow: #f1c40f;
+    --danger:#e74c3c;
+  
+
+  
+  
+    --gray-10: #EEF1FA;
+
+    --blue-baby:#aad3df;
+    --white:#FFFFFF;
+    --gray-50: #E7E7E7;
+    --gray-100: #BFBFBF;
+    --gray-500: #757575;
+    --black-500:#333333;
+  
+  }
