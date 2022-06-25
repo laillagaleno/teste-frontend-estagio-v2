@@ -4,9 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style/main.css">
+
+  <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Quicksand:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+    </style>
+
+    <!-- css do maps  -->
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
+    <!-- arquivo js do Leaflet -->
+    <script src="node_modules/leaflet/dist/leaflet.js"></script>
+
+
+    <title>Mapa Aiko</title>
 </head>
 <body>
-    
+     <main class="fc f-center">
+        <div class="nav-search fc f-center">
+                <h3>Pesquise por um equipamento</h3>
+                <div class="search-input fr">
+                    <input type="text" placeholder="Nome, Modelo, Estado, ID">
+                    <div class="button fc f-center">
+                        <img src="img/searchicon.svg" alt="Icone de Pesquisar">
+                    </div>
+                </div>
+                <div class="nav-infor">
+                    <ul class="fr">
+                        <li>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <strong>Ganho</strong>
+                                        <h1>920</h1>
+
+                                        <div class="progress" id="container">
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <strong>Porcentagem</strong>
+                                        <h1>92%</h1>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <strong>Id do equipamento</strong>
+                                        <div>
+                                            <a>a7c53eb1-4f5e-4eba-9764-ad205d0891f9</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div>
+                                        <strong>Nome do equipamento</strong>
+                                        <p>Ca-0001</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div>
+                                        <strong>Modelo do equipamento</strong>
+                                        <p>Caminhão de carga</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="table-container">
+                                <strong>Histótico de estados</strong>
+                                <div class="container">
+                                    <table>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Operando</td>
+                                                <td>2021-02-01</td>
+                                                <td>03:00:00</td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <div class="fr nav-map">
+            <div id="map"></div>     
+        </div>
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>
